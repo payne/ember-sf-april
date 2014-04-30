@@ -1,0 +1,12 @@
+{
+  "main": "app://hello-app/index.html",
+  "name": "hello-app",
+  "version": "0.0.1",
+  "window": {
+    "title": "Hello World",
+    "width": 800,
+    "height": 500,
+    "toolbar": false,
+    "position": "center"
+  }
+}

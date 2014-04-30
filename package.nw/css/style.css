@@ -1,0 +1,59 @@
+/* Put your CSS here */
+
+#debug {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.ember-application {
+    margin: 20px;
+}
+
+.ui-switch {
+  box-sizing: border-box;
+  position: relative;
+  width: 40px;
+  height: 24px;
+  background-color: #ddd;
+  border-radius: 12px;
+  transition: background-color .3s;
+}
+
+.ui-switch .disabled-background {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 38px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 11px;
+  transition: top .3s, left .3s, width .3s, height .3s;
+}
+
+.ui-switch .toggler {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: left .3s;
+}
+
+.ui-switch.on {
+  background-color: #77ce65;
+}
+
+.ui-switch.on .disabled-background {
+  top: 11px;
+  left: 19px;
+  width: 1px;
+  height: 1px;
+}
+
+.ui-switch.on .toggler {
+  left: 17px;
+}
